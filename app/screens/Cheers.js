@@ -13,7 +13,7 @@ class Home extends Component {
         super();
         GetStore()
             .then(wholeStore => {
-                console.warn("From Cheers whole store ", wholeStore)
+                console.warn("From Cheers whole stores ", wholeStore)
             })
     }
 
